@@ -10,10 +10,11 @@
         android:id="@+id/imageViewHead"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="60dp"
-        android:layout_marginRight="25dp"
-        android:src="@drawable/" />
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/FlowerofCoin"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/FlipcoinButton"
@@ -23,6 +24,6 @@
         android:layout_marginLeft="120dp"
         android:layout_marginRight="120dp"
         android:background="@color/buttonBackground"
-        android:text="Flip Coin"
+        android:text="@string/flip_coin"
         android:textColorHighlight="@color/colorPrimary" />
 </LinearLayout>
